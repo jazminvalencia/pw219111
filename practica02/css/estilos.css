@@ -5,6 +5,12 @@ body{
 	min-width: 1078px;
 	max-width: 1078px;
 }
+footer{
+	border-top: 3px solid lightgray;
+	color: white;
+	background: #4d70ba;
+	padding-left: 20px;
+}
 header input{
 	float:  right;
 	margin-right: -240px;
@@ -27,6 +33,11 @@ header nav ul li{
 	left: -35px;
 	position: relative;
 	top: -410px;
+}
+#imagen{
+	left: 809px;
+	position: relative;
+	margin: 50px;
 }
 #granthams{
 	margin-top: 25px;
@@ -59,9 +70,35 @@ header nav ul li{
 	content: "• ";
 	color: #FF0099;
 }
+#secc03art04{
+	border: 1px solid red;
+	/*margin-top: 40px;*/
+	padding-top: 40px;
+}
+#secc03art04 article input{
+	border-radius: 5px;
+}
+#terceraSeccion article input[type="button"]{
+	background: #8bc500;
+	color: white;
+}
 #segundaSeccion article{
 	padding-right: 122px;
 	text-align: right;
+}
+#terceraSeccion article{
+	display: inline-block;
+	vertical-align: top;
+	width: 23%;
+}
+#terceraSeccion article img{
+	vertical-align: middle;
+}
+.colorazul{
+	color: #4267b3;
+}
+.colorverde{
+	color: #8bc500;
 }
 .colorrosa{
 	color: #FF0099;
