@@ -13,10 +13,9 @@ footer{
 	padding-left: 20px;
 	margin-top:50px;
     width:100%;
-    height:200px;
+    /* height:200px; */
 }
 footer article{
-	
 	margin-top: 65px;
 	margin-right: 50px;  
 	/* block es para ponerlo en bloque */
@@ -76,6 +75,7 @@ header nav ul li{
 	float: right;
 }
 #primerSeccion{
+	/* border: 1px solid red; */
 	height: 318px;
 	margin-top: 60px;
 }
