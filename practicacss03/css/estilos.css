@@ -9,10 +9,8 @@ body{
 body header img{
     width: 800px;
     float :right;
-    border: 1px solid red;
 }
 header input{
-    border: 1px solid red;
 	float:  left;
 	margin-right: -240px;
     margin-top: 15px;
@@ -32,7 +30,6 @@ header input{
 	width: 50px;
 }
 #seccion01art01 ul{
-    border: 1px solid red;
     /* le quita los puntos a la lista */
     list-style: none;
     margin-top: 30px;
@@ -41,12 +38,11 @@ header input{
     width: 70px;
     color: grey;
 }
-#seccion01art01 img{
-    border:1px solid red;
+#seccion01art01  img{
     height: 60px;
 }
+
 #seccion01art02 {
-    border:1px solid red;
     height: 60px;
     margin-left: 30px;
     display: inline-block;
@@ -55,49 +51,59 @@ header input{
     border:1px solid gray ;
     /* largo de la seccion */
     height: 300px;
+    color:gray;
     top :100px;
     position: relative;
     background-color :#2C2B2B;
     display: block;
 }
-#segundaSeccion article {
-    border:1px solid red ;
-    font-size: 0.8em;
-    display: block;
-    width:  300px; 
+.contenedor {
+    /* border: 1px solid red; */
+    display: inline-table;
+    margin: 20px 20px;
+    /* padding: 0px 0px 10px;  */
+    width: 28%;
 }
-#segundaSeccion article img{
-    /* border:1px solid gray ; */
-    margin-top:  15px;
-    margin-left: 75px;
-    height: 30px;
+.marcoImagen{
+    /* display: inline-block; */
+    border-bottom: 2px dashed gray;
+    margin: 0px 0px 10px;
+    padding: 0px 0px 10px;
+    text-align: right;
+    /* width: 100%; */
 }
-#seccion02art01{
-    border:1px solid red ;
-    color: gray;
-    margin-top: 20px;
-    margin-left: 30px;
-    height: 35px;
+#segundaSeccion article article img{
+    height: 33px;
 }
-/* #seccion02art02{
-    border:1px solid red ;
-    color: gray;
-    margin-top: 20px;
-    margin-left: 30px;
-    height: 30px;
-} */
-#segundaSeccion article p{
-    /* border:1px solid gray ; */
-    /* color: gray; */
-    margin-top:  20px;
-    margin-left: 20px;
-    height: 30px;
+#terceraSeccion{
+    /* border: 1px solid red; */
+    color:gray;
+    position: relative;
+    top:-160px;
+}
+#terceraSeccion ul{
+    list-style: none;
+}
+#terceraSeccion ul li{
+    display: inline-block;
+    margin-right: 35px;
+}
+#cuartaSeccion{
+    /* border: 1px solid red; */
+    position: relative;
+    /* top: -180px; */
+    height: 100px;
 }
 
-.colorBlanco{
-    color: white;
-}
 .nito{
 	font-weight: bold;
 }
-
+.esquina{
+    float: right;
+}
+.azul{
+    color:#4976CE;
+}
+.colorVerde{
+    background-color: #7FE166;
+}
