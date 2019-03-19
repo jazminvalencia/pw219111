@@ -2,74 +2,77 @@ body{
 	font-size: 16px; /*1em*/
 	margin: 0px auto;
 	/*requerimiento del cliente*/
-	min-width: 1024px;
-    max-width: 1024px;
+	min-width: 1136px;
+    max-width: 1136px;
     height:50px
 }
 body header img{
-    width: 800px;
+    width: 915px;
     float :right;
 }
 header input{
 	float:  left;
 	margin-right: -240px;
-    margin-top: 15px;
+    margin-top: 7px;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    margin-left: 17px;
+    text-align: right;
 	/* position: relative; */
 }
 #primerSeccion{
     border:1px solid #2C2B2B ;
-    /* largo de lq seccion */
-    height: 300px;
-    top :100px;
+    /* largo de la eccion */
+    height: 335px;
+    top:39px;
+    padding-bottom: 19px;
     position: relative;
+    display: inline-table;
     background-color :#2C2B2B;
 }
-#seccion01art01 img{
-    /* display: inline; */
-    margin-left: 0px;
-	width: 30px;
+#seccion01art01{
+    /* border: 1px solid red; */
+    display: inline-table;
+    height: 184px ;
+    padding-right: 39px;
+    width: 15%;
 }
-#section span ul{
+#seccion01art01 ul{
     /* le quita los puntos a la lista */
     list-style: none;
-    margin-top: 30px;
-    padding-right: 15px;
-    margin-left: 18px;
-    width: 70px;
     color: grey;
 }
-#seccion01art01  img{
-    height: 60px;
-}
-
-#seccion01art02 {
-    height: 60px;
-    margin-left: 30px;
-    display: inline-block;
+#seccion01art01 img{
+    height: 73px;
 }
 #segundaSeccion{
     border:1px solid gray ;
     /* largo de la seccion */
     height: 300px;
     color:gray;
-    top :100px;
+    top :40px;
     position: relative;
     background-color :#2C2B2B;
-    display: block;
+    /* display: block; */
 }
-#segundaSeccion article article img{
-    height: 33px;
+.caja{
+    /* border: 1px solid red; */
+    color:gray;
+    display: inline-table;
+    margin-top: 48px;
+    padding-top: 49px;
+    padding-bottom: 3px;
+    max-width: 1200px;
+    width: 20%;
+    text-align: justify
 }
-/* clases */
-/* articulos de la seccion */
+
 .contenedor {
     /* border: 1px solid red; */
     display: inline-table;
     margin: 20px 20px;
-    /* padding: 0px 0px 10px;  */
     width: 28%;
 }
-/*Seccion02 imagen*/
 .marcoImagen{
     /* display: inline-block; */
     border-bottom: 2px dashed gray;
@@ -78,8 +81,12 @@ header input{
     text-align: right;
     /* width: 100%; */
 }
+#segundaSeccion article article img{
+    height: 33px;
+}
 .nito{
-	font-weight: bold;
+    font-weight: bold;
+    
 }
 .esquina{
     float: right;
@@ -87,6 +94,34 @@ header input{
 .azul{
     color:#4976CE;
 }
-.colorVerde{
-    background-color: #7FE166;
+.verde{
+    background-color :rgb(0, 172, 63);
+    padding-bottom: 13px;
+}
+.negro{
+    background-color :rgb(23, 24, 23);
+    padding-bottom: 13px;
+}
+.rojo{
+    background-color :rgb(160, 4, 15);
+    padding-bottom: 12px;
+}
+.gris{
+    background-color :rgb(194, 187, 187);
+    padding-bottom: 18px;
+}
+.colorBlanco{
+    color: white;
+}
+.colorGris{
+    color: gray;
+}
+.letragrande{
+	font-size: 1.2em;
+}
+.letramediana{
+	font-size: 1em;
+}
+.id{
+    
 }
