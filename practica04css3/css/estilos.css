@@ -13,6 +13,7 @@ header{
 header img{
    margin-left: 20px;
    margin-top: 16px;
+   padding-top: -100px;
 }
 header article img{
     /* border: 1px solid blue; */
