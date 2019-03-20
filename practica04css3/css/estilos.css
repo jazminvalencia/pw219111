@@ -1,0 +1,44 @@
+body{
+    border: 1px solid red;
+	font-size: 16px; /*1em*/
+	margin: 0px auto;
+	/*requerimiento del cliente*/
+	min-width: 1024px;
+	max-width: 1024px;
+}
+header img{
+   margin-left: 20px;
+}
+header article img{
+    /* border: 1px solid blue; */
+    height: 30px;
+    padding-right: 0px;
+	position: relative;
+    top: -68px;
+    float: right;
+    margin-left: 1px;
+    margin-right: 8px;
+}
+header nav ul{
+    /* list-style: none = quita los puntos de las listas */
+    list-style: none ;
+    margin-left: -20px;
+    margin-top: 40px;
+}
+header nav ul li{
+    border: 1px solid green;
+    display: inline-table;
+    margin-right: 15px;
+   
+}
+#buy{
+	margin-left: 600px;
+	position: relative;
+	top: -55px;
+}
+#go{
+    border: 1px solid blue;
+	margin-left: 600px;
+	position: relative;
+	top:100px;
+}
