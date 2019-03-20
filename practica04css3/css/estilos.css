@@ -7,10 +7,12 @@ body{
 	max-width: 1024px;
 }
 header{
-    height: 250px;
+    /* border: 1px solid blue; */
+    height: 198PX;;
     border-bottom: 2px dashed gray;
 }
 header img{
+    /* border: 1px solid red; */
    margin-left: 20px;
    margin-top: 16px;
    padding-top: -100px;
@@ -37,9 +39,7 @@ header nav ul li{
     margin-right: 15px;
    
 }
-footer{
-    /* border: 1px solid red; */
-}
+
 #seccion01{
     /* border:1px solid blue; */
     height:550px;
@@ -67,8 +67,11 @@ footer{
     margin-left: 557px;
 }
 #secc02Art01{
+    /* border: 1px solid red; */
     display: inline-table;
-    margin-left: 21px;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: -30px;
 }
 #fooParrafo{
     /* border: 1px solid red; */
@@ -100,8 +103,6 @@ footer{
 #go{
     /* border: 1px solid blue; */
     margin-left: 655px;
-    /* width: 400px;
-    height: 500px; */
 	position: relative;
 	top:-150px;
 }
@@ -122,5 +123,5 @@ footer{
     font-size: 3.5em;
 }
 .letraMediana{
-    font-size: .6em;
+    font-size: .9em;
 }
