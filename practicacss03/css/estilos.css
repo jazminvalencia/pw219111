@@ -11,6 +11,7 @@ body header img{
     float :right;
 }
 header input{
+    border: 2px solid gray;
 	float:  left;
 	margin-right: -240px;
     margin-top: 7px;
@@ -18,6 +19,7 @@ header input{
     padding-bottom: 8px;
     margin-left: 17px;
     text-align: right;
+    
 	/* position: relative; */
 }
 #primerSeccion{
@@ -25,7 +27,7 @@ header input{
     /* largo de la eccion */
     height: 335px;
     top:39px;
-    padding-bottom: 19px;
+    padding-bottom: 0px;
     position: relative;
     display: inline-table;
     background-color :#2C2B2B;
@@ -58,11 +60,9 @@ header input{
 .caja{
     /* border: 1px solid red; */
     color:gray;
+    height: 251px;
     display: inline-table;
-    margin-top: 48px;
-    padding-top: 49px;
-    padding-bottom: 3px;
-    max-width: 1200px;
+    margin-top: 50px;
     width: 20%;
     text-align: justify
 }
@@ -95,20 +95,16 @@ header input{
     color:#4976CE;
 }
 .verde{
-    background-color :rgb(0, 172, 63);
-    padding-bottom: 13px;
+    background-color : #aec952;
 }
 .negro{
-    background-color :rgb(23, 24, 23);
-    padding-bottom: 13px;
+    background-color :#515151;
 }
 .rojo{
-    background-color :rgb(160, 4, 15);
-    padding-bottom: 12px;
+    background-color :#d23e3f;
 }
 .gris{
-    background-color :rgb(194, 187, 187);
-    padding-bottom: 18px;
+    background-color :#dedede;
 }
 .colorBlanco{
     color: white;
